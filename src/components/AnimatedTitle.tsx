@@ -9,7 +9,7 @@ export function AnimatedTitle() {
       {/* Logo in the middle */}
       <div className="relative flex items-center justify-center">
         <img
-          src="/src/assets/logo-nobg.png"
+          src="/logo-nobg.png"
           alt="Inxora Logo"
           className="h-10 md:h-16 lg:h-20 w-auto object-contain"
           draggable={false}

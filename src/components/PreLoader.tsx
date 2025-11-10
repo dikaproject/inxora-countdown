@@ -79,7 +79,7 @@ export function PreLoader({ onComplete }: PreLoaderProps) {
                   className="flex justify-center"
                 >
                   <img
-                    src="/src/assets/logo-nobg-text.png"
+                    src="/logo-nobg-text.png"
                     alt="Inxora Studio"
                     className="h-28 md:h-36 lg:h-40 w-auto object-contain"
                     draggable={false}
