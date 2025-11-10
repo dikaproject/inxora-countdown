@@ -1,35 +1,85 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Basic -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/assets/logo-nobg.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!-- Primary Meta Tags -->
     <title>Inxora Studio — Launching Soon</title>
     <meta name="title" content="Inxora Studio — Launching Soon" />
-    <meta name="description" content="We're counting down to something new from Inxora Studio. Join the launch at midnight, January 1st." />
-    
+    <meta
+      name="description"
+      content="We're counting down to something new from Inxora Studio — a creative digital studio bringing technology and design together for everyone. Launching soon!"
+    />
+    <meta
+      name="keywords"
+      content="Inxora Studio, digital studio, creative agency, web development, UI UX, software house, design, Banyumas, IntechCode"
+    />
+    <meta name="author" content="Inxora Studio" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://inxorastudio.com/" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/logo-nobg.png" />
+    <link rel="apple-touch-icon" href="/logo-nobg.png" />
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://inxorastudio.com/" />
+    <meta property="og:site_name" content="Inxora Studio" />
     <meta property="og:title" content="Inxora Studio — Launching Soon" />
-    <meta property="og:description" content="We're counting down to something new from Inxora Studio. Join the launch at midnight, January 1st." />
+    <meta
+      property="og:description"
+      content="A creative digital studio that fuses technology, design, and local culture. Join the launch of Inxora Studio soon!"
+    />
     <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:image:alt" content="Inxora Studio Preview" />
+    <meta property="og:locale" content="en_US" />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://inxorastudio.com/" />
-    <meta property="twitter:title" content="Inxora Studio — Launching Soon" />
-    <meta property="twitter:description" content="We're counting down to something new from Inxora Studio. Join the launch at midnight, January 1st." />
-    <meta property="twitter:image" content="/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@inxorastudio" />
+    <meta name="twitter:creator" content="@inxorastudio" />
+    <meta name="twitter:title" content="Inxora Studio — Launching Soon" />
+    <meta
+      name="twitter:description"
+      content="We're building something inspiring. Discover Inxora Studio soon — where creativity meets technology."
+    />
+    <meta name="twitter:image" content="/og-image.jpg" />
+    <meta name="twitter:image:alt" content="Inxora Studio Preview" />
 
-    <!-- Theme Color -->
+    <!-- Theme & Color -->
     <meta name="theme-color" content="#8b5cf6" />
-    
-    <!-- Robots -->
-    <meta name="robots" content="index, follow" />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- Preload Key Assets -->
+    <link rel="preload" as="image" href="/logo-nobg.png" />
+    <link rel="preload" as="script" href="/src/main.tsx" />
+
+    <!-- Structured Data (Schema.org for SEO Rich Snippet) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Inxora Studio",
+        "url": "https://inxorastudio.com",
+        "logo": "https://inxorastudio.com/logo-nobg.png",
+        "sameAs": [
+          "https://www.instagram.com/inxorastudio/"
+        ],
+        "description": "Inxora Studio is a creative digital studio focused on empowering local communities through technology and design.",
+        "founder": {
+          "@type": "Person",
+          "name": "Rasya Dika Pratama"
+        }
+      }
+    </script>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
